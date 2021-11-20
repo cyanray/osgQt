@@ -420,10 +420,10 @@ INCLUDE(OsgMacroUtils)
 
 
 # To select a specific version of QT define DESIRED_QT_VERSION
-# via cmake -DDESIRED_QT_VERSION=5
+# via cmake -DDESIRED_QT_VERSION=6
 # QUIET option disables messages if the package cannot be found.
 
-FIND_PACKAGE(Qt5 COMPONENTS Widgets OpenGL REQUIRED)
+FIND_PACKAGE(Qt6 COMPONENTS Widgets OpenGL OpenGLWidgets REQUIRED)
 
 
 ################################################################################
